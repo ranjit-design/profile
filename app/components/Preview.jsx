@@ -33,17 +33,17 @@ const Preview = ({ formData = {}, skills = [], onEdit }) => {
 
           <div className="bg-white/60 backdrop-blur-sm rounded-xl p-6 shadow-sm">
             <div className="text-sm text-gray-500 mb-1">Email</div>
-            <div className="text-gray-700">{form.email || "—"}</div>
+            <div className="text-gray-700 overflow-auto">{form.email || "—"}</div>
           </div>
 
           <div className="grid grid-cols-2 gap-4">
             <div className="bg-white/60 backdrop-blur-sm rounded-xl p-6 shadow-sm">
               <div className="text-sm text-gray-500 mb-1">Phone</div>
-              <div className="text-gray-700">{form.phone || "—"}</div>
+              <div className="text-gray-700 overflow-auto">{form.phone || "—"}</div>
             </div>
             <div className="bg-white/60 backdrop-blur-sm rounded-xl p-6 shadow-sm">
               <div className="text-sm text-gray-500 mb-1">City</div>
-              <div className="text-gray-700">{form.city || "—"}</div>
+              <div className="text-gray-700 overflow-auto">{form.city || "—"}</div>
             </div>
           </div>
 
