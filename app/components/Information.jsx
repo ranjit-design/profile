@@ -47,8 +47,8 @@ const Information = ({ form = {}, handleChange, next }) => {
   };
 
   return (
-    <div className="glass px-4 sm:px-6 md:px-8">
-      <form onSubmit={handleSubmit} className="space-y-6">
+    <div className=" px-4 sm:px-6 md:px-8 border-2 border-gray-100 rounded-2xl">
+      <form onSubmit={handleSubmit} className="space-y-6 mt-10">
         <h1 className="text-3xl font-bold text-center mb-8 text-slate-800">
           Profile Information
         </h1>
@@ -185,7 +185,7 @@ const Information = ({ form = {}, handleChange, next }) => {
         <div className="flex justify-center pt-6">
           <button
             type="submit"
-            className="btn-glow px-8 py-3 text-black rounded-full font-semibold hover:bg-gray-300 hover:shadow-lg transform hover:scale-105 transition-all duration-300"
+            className="btn-glow mb-6 px-8 py-3 text-black rounded-full font-semibold hover:bg-gray-300 hover:shadow-lg transform hover:scale-105 transition-all duration-300"
           >
             Next: Add Skills
           </button>

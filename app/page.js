@@ -103,7 +103,7 @@ const Page = () => {
 
   if (isSubmitted) {
     return (
-      <div className="min-h-screen w-full flex items-center justify-center px-4 py-8 sm:px-6 sm:py-10 fade-in">
+      <div className="min-h-screen border-2 w-full flex items-center justify-center px-4 py-8 sm:px-6 sm:py-10 fade-in">
         <div className="w-full max-w-2xl glass rounded-2xl p-8 sm:p-12 text-center">
           <div className="mx-auto flex items-center justify-center h-16 w-16 rounded-full bg-green-500 mb-6">
             <svg className="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">

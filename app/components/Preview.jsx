@@ -4,15 +4,15 @@ const Preview = ({ formData = {}, skills = [], onEdit }) => {
   const form = formData || {};
 
   return (
-    <div className="glass space-y-8 px-4 sm:px-6 md:px-8">
-      <div className="flex flex-col md:flex-row justify-between items-center mb-8">
+    <div className="glass space-y-8 px-4 sm:px-6 md:px-8 border-2 border-gray-100 rounded-2xl">
+      <div className="flex flex-col mt-6 md:flex-row justify-between items-center mb-8">
         <h3 className="text-2xl font-bold text-slate-800">
           Profile Summary
         </h3>
         <button
           type="button"
           onClick={onEdit}
-          className="btn-glow px-6 py-3 bg-gray-200 text-black rounded-full font-semibold hover:bg-gray-300 hover:shadow-lg transform hover:scale-105 transition-all duration-300 flex items-center gap-2"
+          className="btn-glow px-6 py-3 bg-gray-200 mt-6 text-black rounded-full font-semibold hover:bg-gray-300 hover:shadow-lg transform hover:scale-105 transition-all duration-300 flex items-center gap-2"
         >
           Edit Profile
         </button>
@@ -47,7 +47,7 @@ const Preview = ({ formData = {}, skills = [], onEdit }) => {
             </div>
           </div>
 
-          <div className="bg-gray-100 rounded-xl p-6 shadow-sm">
+          <div className="bg-gray-100 rounded-xl p-6 mb-6 shadow-sm">
             <div className="text-sm text-gray-500 mb-3">Skills</div>
             {skills.length === 0 ? (
               <div className="text-gray-500 italic">No skills added.</div>
