@@ -88,7 +88,7 @@ const Information = ({ form = {}, handleChange, next }) => {
           <label htmlFor="email" className="block text-sm font-medium text-gray-700">
             Email *
           </label>
-          <div className="mt-1 flex gap-2">
+          <div className="mt-1 flex flex-col sm:flex-row  gap-2">
             {editingField === 'email' ? (
               <input
                 id="email"
@@ -121,7 +121,7 @@ const Information = ({ form = {}, handleChange, next }) => {
             <label htmlFor="phone" className="block text-sm font-medium text-gray-700">
               Phone *
             </label>
-            <div className="mt-1 flex gap-2">
+            <div className="mt-1 flex flex-col sm:flex-row gap-2">
               {editingField === 'phone' ? (
                 <input
                   id="phone"
@@ -153,7 +153,7 @@ const Information = ({ form = {}, handleChange, next }) => {
             <label htmlFor="city" className="block text-sm font-medium text-gray-700">
               City *
             </label>
-            <div className="mt-1 flex gap-2">
+            <div className="mt-1 flex flex-col sm:flex-row gap-2">
               {editingField === 'city' ? (
                 <input
                   id="city"
