@@ -4,7 +4,7 @@ const Preview = ({ formData = {}, skills = [], onEdit }) => {
   const form = formData || {};
 
   return (
-    <div className="glass space-y-8 px-4 sm:px-6 md:px-8 border-2 border-gray-100 rounded-2xl">
+    <div className="glass space-y-8 px-4 sm:px-6 md:px-8 border-2 border-gray-100 rounded-2xl overflow-hidden">
       <div className="flex flex-col mt-6 md:flex-row justify-between items-center mb-8">
         <h3 className="text-2xl font-bold text-slate-800">
           Profile Summary

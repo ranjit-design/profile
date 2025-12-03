@@ -104,7 +104,7 @@ const SkillsSection = ({
   };
 
   return (
-    <div className="glass space-y-6 px-4 sm:px-6 md:px-8 border-2 border-gray-100 rounded-2xl">
+    <div className="glass space-y-6 px-4 sm:px-6 md:px-8 border-2 border-gray-100 rounded-2xl overflow-hidden">
       <h2 className="text-3xl font-bold text-center mb-8 text-slate-800 mt-6">
         Add Your Skills
       </h2>

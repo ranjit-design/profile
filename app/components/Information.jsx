@@ -47,7 +47,7 @@ const Information = ({ form = {}, handleChange, next }) => {
   };
 
   return (
-    <div className=" px-4 sm:px-6 md:px-8 border-2 border-gray-100 rounded-2xl">
+    <div className=" px-4 sm:px-6 md:px-8 border-2 border-gray-100 rounded-2xl overflow-hidden ">
       <form onSubmit={handleSubmit} className="space-y-6 mt-10">
         <h1 className="text-3xl font-bold text-center mb-8 text-slate-800">
           Profile Information
